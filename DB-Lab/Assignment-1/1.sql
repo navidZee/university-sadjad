@@ -1,0 +1,19 @@
+CREATE DATABASE Digikala
+GO
+USE Digikala
+
+CREATE TABLE Customers
+(
+	Id INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(50),
+	City NVARCHAR(50),
+	Country NVARCHAR(50)
+)
+
+CREATE TABLE Products
+(
+	Id INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(50),
+	Price INT,
+	Count INT
+)

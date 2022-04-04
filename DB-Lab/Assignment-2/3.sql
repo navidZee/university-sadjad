@@ -1,0 +1,2 @@
+SELECT * FROM Films 
+WHERE Id % 2 = 0
